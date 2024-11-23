@@ -6,6 +6,17 @@ V {}
 S {}
 E {}
 T {Translinear gain circuit with digitally controllable gain} 390 -930 0 0 0.6 0.6 {}
+T {I1+iip} 540 -600 0 0 0.4 0.4 {}
+T {I1-iin} 790 -600 0 0 0.4 0.4 {}
+T {2I2} 1480 -220 0 0 0.4 0.4 {}
+T {V+} 740 -480 0 0 0.4 0.4 {}
+T {V-} 620 -480 0 0 0.4 0.4 {}
+T {I3 = I2+IOP} 1330 -590 0 0 0.4 0.4 {}
+T {I4 = I2-ION} 1510 -610 0 0 0.4 0.4 {}
+T {I2} 1540 -730 0 0 0.4 0.4 {}
+T {I2} 1360 -730 0 0 0.4 0.4 {}
+T {I2} 1030 -570 0 0 0.4 0.4 {}
+T {I2} 1190 -570 0 0 0.4 0.4 {}
 N 650 -650 740 -650 {
 lab=#net1}
 N 660 -750 660 -720 {
@@ -174,8 +185,8 @@ C {devices/ipin.sym} 120 -220 0 0 {name=p3 lab=b[4:0]
 
 }
 C {JNW_SV_SKY130A/JNWSW_CM.sym} 330 -190 0 0 {name=x1}
-C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 740 -650 0 0 {name=x2[1:0]}
-C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 650 -650 0 1 {name=x3[1:0]}
+C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 740 -650 0 0 {name=xm2[1:0]}
+C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 650 -650 0 1 {name=xm1[1:0]}
 C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 660 -720 0 0 {name=x4[1:0]}
 C {devices/lab_wire.sym} 740 -720 0 1 {name=p6 sig_type=std_logic lab=VSS}
 C {devices/lab_wire.sym} 820 -650 0 1 {name=p7 sig_type=std_logic lab=VSS}
@@ -185,9 +196,9 @@ C {JNW_ATR_SKY130A/JNWATR_PCH_12C5F0.sym} 1140 -710 0 0 {name=x5 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_12C5F0.sym} 1280 -710 0 0 {name=x7 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_12C5F0.sym} 1460 -710 0 0 {name=x8 }
 C {JNW_ATR_SKY130A/JNWATR_NCH_12C5F0.sym} 1380 -220 0 0 {name=x10[1:0]}
-C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1280 -440 0 0 {name=x11[1:0]}
+C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1280 -440 0 0 {name=xm3[1:0]}
 C {JNW_ATR_SKY130A/JNWATR_NCH_12C5F0.sym} 1220 -220 0 1 {name=x9 }
-C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1540 -440 0 1 {name=x12[1:0]}
+C {JNW_ATR_SKY130A/JNWATR_NCH_12C1F2.sym} 1540 -440 0 1 {name=xm4[1:0]}
 C {devices/opin.sym} 1590 -570 2 1 {name=p9 lab=ION
 
 }
