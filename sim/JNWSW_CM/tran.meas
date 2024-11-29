@@ -1,0 +1,18 @@
+* Measure JNWSW_CM
+.control
+
+load {cicname}.raw
+
+echo "MEAS_START"
+
+meas tran max_i AVG i(VDAC) from=31.5u to=32u
+meas tran min_i AVG i(VDAC) from=2u to=3u
+
+meas tran i_0 AVG i(VI0) from=31.5u to=32u
+meas tran i_1 AVG i(VI1) from=31.5u to=32u
+meas tran i_2 AVG i(VI2) from=31.5u to=32u
+
+
+
+echo "MEAS_END"
+.endc

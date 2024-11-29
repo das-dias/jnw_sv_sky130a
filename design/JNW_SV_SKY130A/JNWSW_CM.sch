@@ -196,8 +196,10 @@ N 680 -490 780 -490 {
 lab=IBN_DAC}
 N 640 -290 640 -240 {
 lab=ibp}
-N 680 -360 680 -270 {
-lab=IBN_DAC}
+N 680 -300 680 -270 {}
+N 680 -330 700 -330 {}
+N 700 -330 700 -240 {}
+N 640 -330 640 -290 {}
 C {devices/ipin.sym} 140 -180 0 0 {name=p2 lab=VSS}
 C {devices/ipin.sym} 180 -310 0 0 {name=p3 lab=ibp
 
@@ -239,3 +241,4 @@ C {devices/ipin.sym} 160 -490 0 0 {name=p1 lab=b[4:0]
 }
 C {JNW_ATR_SKY130A/JNWATR_NCH_2C5F0.sym} 640 -240 0 0 {name=x12 }
 C {cborder/border_s.sym} 1250 -170 0 0 {}
+C {JNW_ATR_SKY130A/JNWATR_NCH_2C5F0.sym} 640 -330 0 0 {name=x13 }
