@@ -8,6 +8,7 @@ on:
       - 'design/**.mag'
       - 'design/**.sym'
       - 'sim/**'
+      - 'rtl/**'
       - 'info.yaml'
       - 'config.yaml'
   workflow_dispatch:
