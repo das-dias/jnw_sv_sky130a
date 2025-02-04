@@ -23,7 +23,7 @@ $$ V_{S1} = -B \ln (I_{D1}/A) $$
 
 where A and B are constants.
 
-Consider a small current difference into IIP and IIN where $$IIP = i_1$ and $IIN=-i_1$, since the gate is shared,
+Consider a small current difference into IIP and IIN where $IIP = i_1$ and $IIN=-i_1$, since the gate is shared,
 the differential voltage on source will be 
 
 $$\Delta V = V_{S2} - V_{S1} = -B \ln\left(\frac{I_1-i_1}{A}\right) + B \ln \left(\frac{I_1+i_1}{A}\right)$$
@@ -32,7 +32,7 @@ which can be simplified to
 
 $$ \Delta V = B \ln \left( \frac{I_1 + i_1 }{ I_1 - i_1 } \right) $$
 
-Now consider the differential pair XM3 and XM4. The voltgage $V-$ must be given by
+Now consider the differential pair XM3 and XM4. The voltage $V-$ must be given by
 
 $$ V+ - V_{GS3} + V_{GS4} = V-$$ 
 
