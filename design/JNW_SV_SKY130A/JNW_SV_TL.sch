@@ -1,12 +1,13 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
 S {}
 E {}
 T {Translinear gain cell} 300 -660 0 0 1 1 {}
-N 300 -440 300 -430 {lab=#net1}
-N 630 -440 630 -430 {lab=#net1}
+N 300 -440 300 -430 {lab=VS1}
+N 630 -440 630 -430 {lab=VS1}
 N 630 -370 630 -250 {lab=IN}
 N 300 -370 300 -250 {lab=IP}
 N 300 -250 350 -250 {lab=IP}
@@ -34,12 +35,12 @@ N 390 -220 390 -140 {lab=ON}
 N 540 -220 540 -140 {lab=OP}
 N 630 -250 630 -140 {lab=IN}
 N 580 -250 630 -250 {lab=IN}
-N 630 -400 650 -400 {lab=#net1}
-N 650 -440 650 -400 {lab=#net1}
-N 630 -440 650 -440 {lab=#net1}
-N 270 -400 300 -400 {lab=#net1}
-N 270 -440 270 -400 {lab=#net1}
-N 270 -440 300 -440 {lab=#net1}
+N 630 -400 650 -400 {lab=VS1}
+N 650 -440 650 -400 {lab=VS1}
+N 630 -440 650 -440 {lab=VS1}
+N 270 -400 300 -400 {lab=VS1}
+N 270 -440 270 -400 {lab=VS1}
+N 270 -440 300 -440 {lab=VS1}
 N 340 -400 340 -360 {lab=IP}
 N 300 -360 340 -360 {lab=IP}
 N 590 -400 590 -350 {lab=IN}
@@ -55,10 +56,10 @@ N 410 -490 450 -490 {lab=VDD_1V8}
 N 410 -520 410 -490 {lab=VDD_1V8}
 N 260 -490 300 -490 {lab=VDD_1V8}
 N 260 -520 260 -490 {lab=VDD_1V8}
-N 300 -460 340 -460 {lab=#net1}
-N 340 -490 340 -460 {lab=#net1}
-N 300 -460 300 -440 {lab=#net1}
-N 300 -440 630 -440 {lab=#net1}
+N 300 -460 340 -460 {lab=VS1}
+N 340 -490 340 -460 {lab=VS1}
+N 300 -460 300 -440 {lab=VS1}
+N 300 -440 630 -440 {lab=VS1}
 N 200 -520 300 -520 {lab=VDD_1V8}
 N 300 -520 310 -520 {lab=VDD_1V8}
 N 630 -250 680 -250 {lab=IN}
@@ -80,7 +81,7 @@ C {JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.sym} 590 -400 0 0 {name=x1 }
 C {JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.sym} 340 -400 0 1 {name=x2 }
 C {devices/lab_wire.sym} 540 -310 0 1 {name=p2 sig_type=std_logic lab=VS
 }
-C {JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.sym} 490 -490 0 1 {name=x9[9:0]}
+C {JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.sym} 490 -490 0 1 {name=x9[1:0]}
 C {JNW_ATR_SKY130A/JNWATR_PCH_2C1F2.sym} 340 -490 0 1 {name=x7 }
 C {devices/ipin.sym} 200 -520 0 0 {name=p3 lab=VDD_1V8}
 C {devices/ipin.sym} 170 -250 0 0 {name=p5 lab=IP}
@@ -91,3 +92,6 @@ C {devices/opin.sym} 410 -180 2 1 {name=p12 lab=ON}
 C {devices/opin.sym} 520 -180 2 0 {name=p13 lab=OP}
 C {devices/ipin.sym} 570 -490 0 1 {name=p1 lab=VBP}
 C {cborder/border_xs.sym} 0 0 0 0 {}
+C {devices/lab_wire.sym} 530 -440 0 1 {name=p7 sig_type=std_logic lab=VS1
+
+}
