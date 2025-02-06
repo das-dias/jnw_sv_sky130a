@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -69,7 +70,8 @@ only_toplevel=false
 value="
 .param mc_mm_switch=0
 .param mc_pr_switch=0
-.include tt.spi
+.lib  "/opt/pdk/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+*.include tt.spi
 *.include ss.spi
 .option gmin=1e-15
 .lib "../../../tech/ngspice/temperature.spi" Tl
