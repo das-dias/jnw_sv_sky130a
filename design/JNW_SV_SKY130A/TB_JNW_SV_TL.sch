@@ -71,8 +71,6 @@ value="
 .param mc_mm_switch=0
 .param mc_pr_switch=0
 .lib  "/opt/pdk/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
-*.include tt.spi
-*.include ss.spi
 .option gmin=1e-15
 .lib "../../../tech/ngspice/temperature.spi" Tl
 .lib "../../../tech/ngspice/supply.spi" Vl
