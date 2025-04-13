@@ -9,7 +9,7 @@ Carsten Wulff
 # Why
 
 I wanted to make an example of using digital code [rtl/dig.v](rtl/dig.v) in
-NGSPICE.
+NGSPICE. More info in the [Youtube video](https://www.youtube.com/watch?v=vEZPCIInwmQ&t=602s).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vEZPCIInwmQ?si=f42sDa6U5A6YV_Hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
